@@ -1,0 +1,26 @@
+{
+  "name": "ame-deploy",
+  "version": "0.1.0",
+  "description": "自动部署工具",
+  "main": "index.js",
+  "bin": {
+    "ame-deploy": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aimeiyijia/ame-deploy.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aimeiyijia/ame-deploy/issues"
+  },
+  "homepage": "https://github.com/aimeiyijia/ame-deploy#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^6.0.0",
+    "inquirer": "^7.3.3",
+    "node-ssh": "^11.0.0",
+    "shelljs": "^0.8.4"
+  }
+}
