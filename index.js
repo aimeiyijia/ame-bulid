@@ -14,7 +14,6 @@ const { sendFile } = require("./core/dispatch/dispatch.js");
 // 放在服务器上的指定位置
 async function deploy() {
 	try {
-		console.log(await getAnswers(), "答案");
 		const answers = await getAnswers();
 		console.log(answers, "答案");
 		if (answers.type) {
